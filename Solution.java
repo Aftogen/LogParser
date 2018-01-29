@@ -15,6 +15,7 @@ public class Solution {
         System.out.println("Enter path to logFolder: ");
 
         String path = scanner.next();
+        scanner.close();
         Path logDir = Paths.get(path);
         //Path logDir = Paths.get("C:\\Users\\A\\Desktop\\LogParser\\logs");
 
